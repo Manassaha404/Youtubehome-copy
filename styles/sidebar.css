@@ -1,0 +1,32 @@
+.slidbar {
+    background-color: white;
+    width: 90px;
+    height: 100%;
+    position: fixed;
+    top: 59px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 100;
+}
+
+.slidbar-icon {
+    height: 30px;
+}
+
+.slidbar-bt {
+    height: 85px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    font-size: medium;
+    transition-duration: .2s;
+}
+
+.slidbar-bt:hover {
+    background-color: rgb(231, 231, 231);
+}
